@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <input type="color" id="color-input">
+            <select>
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select>
+            <button id="main-button">Get color scheme</button>
+        </header>
+        <main>
+            <div class="div-color-0 color colors tooltip" id="div-color-0" data-color="#F55A5A" style="--color:#F55A5A">
+                <span class="tooltiptext">Copy</span>
+            </div>
+            <div class="div-color-1 color colors tooltip" id="div-color-1" data-color="#2B283A" style="--color:#2B283A">
+                <span class="tooltiptext">Copy</span>
+            </div>
+            <div class="div-color-2 color colors tooltip" id="div-color-2" data-color="#FBF3AB" style="--color:#FBF3AB">
+                <span class="tooltiptext">Copy</span>
+            </div>
+            <div class="div-color-3 color colors tooltip" id="div-color-3" data-color="#AAD1B6" style="--color:#AAD1B6">
+                <span class="tooltiptext">Copy</span>
+            </div>
+            <div class="div-color-4 color colors tooltip" id="div-color-4" data-color="#A626D3" style="--color:#A626D3">
+                <span class="tooltiptext">Copy</span>
+            </div>
+        </main>
+        <footer class="container">
+            <div class="hex-color" data-color="#F55A5A">#F55A5A</div>
+            <div class="hex-color" data-color="#2B283A">#2B283A</div>
+            <div class="hex-color" data-color="#FBF3AB">#FBF3AB</div>
+            <div class="hex-color" data-color="#AAD1B6">#AAD1B6</div>
+            <div class="hex-color" data-color="#A626D3">#A626D3</div>
+        </footer>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
